@@ -11,7 +11,7 @@ public class Carro extends Veiculo {
 	public void ligarVeiculo() {
 
 		// Inicializa a variavel com o valor definido com os métodos encapsulados ,
-		// enquanto o valor fornecido for menor do que a velocidade máxima que foi fornecida  , liga o veiculo e incrementa
+		// enquanto o velocidade atual for menor do que a velocidade máxima fornecida, liga o veiculo e incrementa
 		for (int velocidadeAtual = 0; velocidadeAtual <= this.velocidadeMaxima; velocidadeAtual++) {
 
 			try {
