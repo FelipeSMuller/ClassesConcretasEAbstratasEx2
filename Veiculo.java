@@ -23,7 +23,7 @@ public abstract class Veiculo {
 		this.velocidadeMaxima = velocidadeMaxima;
 	}
 
-	// Método abstrato , que informa que o veiculo está sendo ligado
+	// Método abstrato , conténdo alguns comportamentos do veiculo, como ligar, desligar e verificar a velocidade fornecida
 
 	public abstract void ligarVeiculo();
 
